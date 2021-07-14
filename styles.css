@@ -53,7 +53,7 @@ button.watch-btn-top a{
     justify-content: center;
     align-items: center;
     background-color: #FEFEFE;
-    margin-bottom: 165px;
+    margin-bottom: 50px;
 }
 .players {
     display: grid;
@@ -116,6 +116,7 @@ button.watch-btn-bottom a{
     font-size: 16px;
 }
 
+
 /* ------------------
 Teams Section Style 
 ---------------------*/
@@ -124,18 +125,49 @@ section.teams {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    flex-direction: column;
 }
 .team-images {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-
+.team-title{
+    color: #2d25a0;
+    font-size: 30px;
+}
 .flag img {
     width: 300px;
     height: 100%;
 }
 
+/* --------------------
+   Blogs Section Styles
+----------------------- */
+section.all-blogs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+.blog-heading {
+    color: #2d25a0;
+    font-size: 30px;
+}
+.blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+.blog-info {
+    width: 370px;
+    height: 350px;
+}
+.blog-info img{
+    width: 370px;
+    height: 230px;
+}
 /* ----------------
    Footer Styles 
 ------------------*/
