@@ -6,10 +6,39 @@
     margin: 0;
 }
 
+/* ---------------------
+    header Section style
+----------------------- */
+nav {
+    background-color: #2d25a0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 50px 0px 0px 0px;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin-right: 36px;
+}
+.login-btn a {
+    color: white;
+    text-decoration: none;
+}
+button.login-btn {
+    background-color: #E02C6D;
+    padding: 10px 24px 10px 24px;
+    border: none;
+    font-size: 16px;
+}
+i.fas.fa-arrow-right.login-btn-m {
+    margin-right: 10px;
+}
 /* ------------------------
     Hero Section styles  
 ---------------------------*/
-
 .hero-section {
     background-color: #2D25A0;
     display: flex;
@@ -223,7 +252,7 @@ i.fab.social-gap:hover{
         font-weight: bold;
         font-size: 36px;
         margin-bottom: 30px;
-        margin-top: 112px;
+        
     }
     .players {
         display: grid;
@@ -295,5 +324,8 @@ i.fab.social-gap:hover{
         border-radius: 50%;
         text-align: center;
         font-size: 17px;
+    }
+    header {
+        display: none;
     }
 }
