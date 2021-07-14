@@ -27,6 +27,10 @@ nav {
     color: white;
     text-decoration: none;
 }
+.menu a:hover{
+    background-color: #e02c6d;
+    padding: 5px;
+}
 button.login-btn {
     background-color: #E02C6D;
     padding: 10px 24px 10px 24px;
@@ -62,6 +66,7 @@ button.watch-btn-top{
 button.watch-btn-top:hover{
     background-color: #3dbafd;
     cursor:pointer
+    transform: rotate(360deg);
 }
 button.watch-btn-top a{
     text-decoration: none;
