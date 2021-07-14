@@ -5,9 +5,7 @@
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-h2{
-    font-size: 28PX;
-}
+
 /* ------------------------
     Hero Section styles  
 ---------------------------*/
@@ -27,22 +25,20 @@ h2{
     font-size: 64px;
     margin-bottom: 27px;
 }
-button.watch-live {
+button.watch-btn-top{
     background-color: #E02C6D;
     padding: 10px 24px;
     border: none;
 }
-button.watch-live:hover{
+button.watch-btn-top:hover{
     background-color: #3dbafd;
     cursor:pointer
 }
-
-button.watch-live a{
+button.watch-btn-top a{
     text-decoration: none;
     color: white;
     font-size: 16px;
 }
-
 .fa-arrow-right{
     margin-left: 8px;
 }
@@ -76,4 +72,103 @@ button.watch-live a{
 .player-images img{
     width: 100%;
     height: 256px;
+}
+.player-name{
+    font-size: 28px;
+}
+/* ----------------------
+   Highlights Section Styles
+------------------------ */
+.Highlights-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 158px;
+}
+.Highlights {
+    width: 469px;
+    height: 309px;
+    margin-right: 66px;
+}
+h2.highlights-title {
+    font-size: 48px;
+    margin-bottom: -8px;
+}
+.highlights-images img{
+    width: 567px;
+    height: 427px;
+}
+
+button.watch-btn-bottom {
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border: none;
+    margin-top: 24px;
+}
+button.watch-btn-bottom:hover{
+    background-color: #3dbafd;
+    cursor:pointer
+}
+
+button.watch-btn-bottom a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+/* ------------------
+Teams Section Style 
+---------------------*/
+
+section.teams {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.team-images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.flag img {
+    width: 300px;
+    height: 100%;
+}
+
+/* ----------------
+   Footer Styles 
+------------------*/
+footer {
+    margin-bottom: 63px;
+}
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* footer{
+    width: 483px;
+} */
+.logo img{
+    height: 110px;
+}
+.social{
+    padding: 20px 0;
+    margin-left: 14px;
+}
+i.fab.social-gap {
+    width: 32px;
+    height: 32px;
+    margin-right: 14px;
+    font-size: 32px;
+    color: #969BAB;
+    background: #E7E7E8;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+i.fab.social-gap:hover{
+    background-color: #2d25a0;
+    color: white;
 }
