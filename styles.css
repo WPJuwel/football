@@ -204,3 +204,96 @@ i.fab.social-gap:hover{
     background-color: #2d25a0;
     color: white;
 }
+/* ----------------
+    Media Queries 
+  ----------------*/
+@media (max-width: 480px) {
+    .hero-section {
+        background-color: #2D25A0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 695px;
+        margin-bottom: 47px;
+    }
+    .hero-title {
+        color: white;
+        width: 377px;
+        font-weight: bold;
+        font-size: 36px;
+        margin-bottom: 30px;
+        margin-top: 112px;
+    }
+    .players {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        grid-row-gap: 25px;
+    }
+    .player-baner img {
+        width: 329px;
+        height: 259px;
+        margin-top: 50px;
+    }
+    .team-title {
+        color: #2d25a0;
+        font-size: 20px;
+    }
+    .team-images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    section.all-blogs {
+        margin-bottom: 50px;
+    }
+    .blog {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 20px;
+    }
+    
+    .blog-heading {
+        font-size: 20px;
+    }
+   
+    .Highlights {
+        width: 329px;
+        height: 400px;
+    }
+    .Highlights-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 43px;
+        flex-direction: column;
+    }
+    .highlights-images img {
+        width: 400px;
+        height: 248px;
+    }
+    h2.highlights-title {
+        font-size: 30px;
+        margin-bottom: 24px;
+    }
+
+    .flag img {
+        width: 180px;
+        height: 100%;
+    }
+    .logo img {
+        height: 63px;
+        width: 280px;
+    }
+    i.fab.social-gap {
+        width: 17px;
+        height: 17px;
+        margin-right: 14px;
+        color: #969BAB;
+        background: #E7E7E8;
+        padding: 5px;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 17px;
+    }
+}
